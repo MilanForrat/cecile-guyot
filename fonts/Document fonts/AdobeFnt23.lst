@@ -1,0 +1,158 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Volumes/LaCie/BUREAU IMAC/*COM NINA/CECILE GUYOT/DEPLIANT/Dossier DEPLIANT CECILE GUYOT - V2/Document fonts/AdobeFnt23.lst
+FileLength:3703
+FileModTime:750765544
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Blacklist
+FamilyName:Blacklist
+StyleName:Regular
+MenuName:Blacklist
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Blacklist
+WritingScript:Roman
+OutlineFileName:/Volumes/LaCie/BUREAU IMAC/*COM NINA/CECILE GUYOT/DEPLIANT/Dossier DEPLIANT CECILE GUYOT - V2/Document fonts/Blacklist.ttf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:87664
+FileModTime:688470828
+NameArray:0,Win,1,Blacklist
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CaviarDreams-Bold
+FamilyName:Caviar Dreams
+StyleName:Bold
+MenuName:Caviar Dreams
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Caviar Dreams Bold
+WritingScript:Roman
+OutlineFileName:/Volumes/LaCie/BUREAU IMAC/*COM NINA/CECILE GUYOT/DEPLIANT/Dossier DEPLIANT CECILE GUYOT - V2/Document fonts/CaviarDreams_Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:56392
+FileModTime:473951756
+NameArray:0,Mac,4,Caviar Dreams Bold
+NameArray:0,Win,1,Caviar Dreams
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Champagne&Limousines-BoldItalic
+FamilyName:Champagne & Limousines
+StyleName:Bold Italic
+MenuName:Champagne & Limousines
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Champagne & Limousines Bold Italic
+WritingScript:Roman
+OutlineFileName:/Volumes/LaCie/BUREAU IMAC/*COM NINA/CECILE GUYOT/DEPLIANT/Dossier DEPLIANT CECILE GUYOT - V2/Document fonts/Champagne & Limousines Bold Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:106988
+FileModTime:449447702
+NameArray:0,Mac,4,Champagne & Limousines Bold Italic
+NameArray:0,Win,1,Champagne & Limousines
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Champagne&Limousines-Bold
+FamilyName:Champagne & Limousines
+StyleName:Bold
+MenuName:Champagne & Limousines
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Champagne & Limousines Bold
+WritingScript:Roman
+OutlineFileName:/Volumes/LaCie/BUREAU IMAC/*COM NINA/CECILE GUYOT/DEPLIANT/Dossier DEPLIANT CECILE GUYOT - V2/Document fonts/Champagne & Limousines Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:87860
+FileModTime:449447812
+NameArray:0,Mac,4,Champagne & Limousines Bold
+NameArray:0,Win,1,Champagne & Limousines
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Champagne&Limousines
+FamilyName:Champagne & Limousines
+StyleName:Regular
+MenuName:Champagne & Limousines
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Champagne & Limousines
+WritingScript:Roman
+OutlineFileName:/Volumes/LaCie/BUREAU IMAC/*COM NINA/CECILE GUYOT/DEPLIANT/Dossier DEPLIANT CECILE GUYOT - V2/Document fonts/Champagne & Limousines.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:97960
+FileModTime:449447298
+NameArray:0,Mac,4,Champagne & Limousines
+NameArray:0,Win,1,Champagne & Limousines
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:adelia
+FamilyName:adelia
+StyleName:Regular
+MenuName:adelia
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:adelia
+WritingScript:Roman
+OutlineFileName:/Volumes/LaCie/BUREAU IMAC/*COM NINA/CECILE GUYOT/DEPLIANT/Dossier DEPLIANT CECILE GUYOT - V2/Document fonts/adelia.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:66160
+FileModTime:610375830
+NameArray:0,Mac,18,adelia
+NameArray:0,Mac,4,adelia
+NameArray:0,Win,1,adelia
+NameArray:0,Win,16,adelia
+%EndFont
+

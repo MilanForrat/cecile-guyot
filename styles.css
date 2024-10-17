@@ -1,3 +1,114 @@
 .row{
     margin: 0;
 }
+header{
+    position: relative;
+}
+#bg-header{
+    width: 100%;
+}
+#logo{
+    position: absolute;
+    z-index: 999;
+    width: 350px;
+    top: 20px;
+    left: 55px;
+}
+.navbar{
+    border-radius: 5px;
+    position: absolute;
+    right:50%;
+    transform: translateX(50%);
+    top: 50px;
+}
+#reseaux-sociaux{
+    position: absolute;
+    top: 35px;
+    right: 15%;
+    transform: translateX(50%);
+}
+.header-liens-sociaux{
+    transition: 300ms ease-in-out;
+}
+.header-liens-sociaux:hover{
+    transform: scale(1.1);
+}
+#icon-insta, #icon-facebook,#icon-linkedIn,#icon-youtube{
+    position: absolute;
+    transform: translateX(50%);
+}
+#icon-insta{
+    top: 15%;
+    right: 9%;
+}
+#icon-facebook{
+    top: 28%;
+    right: 7%;
+}
+#icon-linkedIn{
+    top: 6%;
+    right: 6%;
+}
+#icon-youtube{
+    top: 18.5%;
+    right: 4%;
+}
+/* NAVBAR */
+.nav-item a{
+    color: #26214d;
+}
+.nav-link{
+    /* transition: 450ms ease-in-out; */
+}
+.nav-link:hover{
+    /* color: white;
+    background-color: #26214d;
+    border-radius: 5px; */
+}
+/* MAIN */
+#main-description{
+    background-image: url(./img/bg-section-1.jpg);
+    background-size: cover;
+    height: 1200px;
+    margin-top: -320px;
+}
+/* Animations */
+.two-lines{
+    text-decoration: none;
+    position: relative;
+}
+.two-lines::before, .two-lines::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #26214d;
+    /* opacity 0 au départ pour qu'elles soient invisibles */
+    opacity: 0;
+    /* left 50% et translate -50% pour centrer parfaitement */
+    left: 50%;
+    transform: translate(-50%, 10px);
+    transition: all 0.3s ease-in-out;
+}
+.two-lines::before{
+    /* une ligne plus large que l'autre */
+    width: 90%;
+    bottom: -4px;
+}
+.two-lines::after{
+    /* une ligne plus petite que l'autre */
+    width: 60%;
+    bottom: -10px;
+}
+/* quand on va hover ... */
+.two-lines:hover::before, .two-lines:hover::after{
+    /* on redonne la visibilité aux élément en transition 0.2s */
+    opacity: 1;
+    /* on remonte les lignes grâce au 0px */
+    transform: translate(-50%, 0px);
+}
+.two-lines::before, .two-lines:hover::after{
+    transition-delay: 0.1s;
+}
+.two-lines:hover::before{
+    transition-delay: 0s;
+}
