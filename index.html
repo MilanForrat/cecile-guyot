@@ -12,8 +12,8 @@
 </head>
 <body>
     <header class="row">
-        <img id="logo" class="col-8 col-md-3" src="./img/logo-MD.png" alt="logo de l'entreprise Cécile Guyot">
-        <nav class="navbar navbar-expand-lg col-6 col-md-6">
+        <img id="logo" class="col-8 col-md-4 col-xl-3" src="./img/logo-MD.png" alt="logo de l'entreprise Cécile Guyot">
+        <nav class="navbar navbar-expand-lg col-6 col-md-7">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
@@ -56,7 +56,7 @@
                 </div>
             </div>
         </nav>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-xl-2">
             <a id="icon-insta" href="https://www.instagram.com/cecile_hypnose/?hl=fr" target="_blank"><img class="header-liens-sociaux" src="./img/icon-insta.png" alt="icon illustrant le réseau social : Instagram"></a>
             <a id="icon-facebook" href="https://www.facebook.com/cecilesohypno" target="_blank"><img class="header-liens-sociaux" src="./img/icon-facebook.png" alt="icon illustrant le réseau social : Facebook"></a>
             <a id="icon-linkedIn" href="https://www.linkedin.com/in/c%C3%A9cile-guyot-2b1a8b10a/" target="_blank"><img class="header-liens-sociaux" src="./img/icon-linkedIn.png" alt="icon illustrant le réseau social : linkedIn"></a>
@@ -64,41 +64,64 @@
         </div>
     </header>
     <main>
-        <section id="main-description">
-            <div class="col-11 col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nam doloremque voluptas tenetur obcaecati at exercitationem aut quo rem corporis, iste sint corrupti sit magnam minus. Possimus dignissimos laborum nemo.</p>
+        <section id="main-description" class="d-flex align-items-center justify-content-center">
+            <div id="main-description-content" class="col-11 col-xl-10">
+                <div  class="row align-items-center justify-content-center">
+                    <div class="col-11 col-md-7 order-2 order-md-1">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nam doloremque voluptas tenetur obcaecati at exercitationem aut quo rem corporis, iste sint corrupti sit magnam minus. Possimus dignissimos laborum nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laborum inventore duimus. Praesentium, iure laboriosam fugit perferendis esse impedit veniam officiis aliquam, rem ipsum fugiat vitae aliquid ex maxime laudantium! Eius consequatur ratione earum odio molestiae laudantium inventore sapiente facere sequi eos at, dolores fuga voluptates fugiat maxime tenetur quibusdam.</p>
+                    </div>
+                    <img src="./img/description-portrait-v1-bg-transp.png" class="col-12 col-md-4 offset-md-1 order-1 order-md-2" alt="">
+                </div>
             </div>
-            <img src="" class="col-11 col-md-3" alt="">
         </section>
-        <section id="main-accroche">
+        <section id="main-accroche" class="d-flex justify-content-center align-items-center">
             <h2>"Comme en semant sur son propre chemin à la découverte de soi..."</h2>
         </section>
-        <section id="main-services">
-            <div class="col-11 col-md-6">
-                <h2>Pour qui ?</h2>
-                <img src="" class="col-6" alt="">
-                <img src="" class="col-6" alt="">
-                <img src="" class="col-6" alt="">
-                <img src="" class="col-6" alt="">
-                <img src="" class="col-6" alt="">
+        <section id="main-services" class="row justify-content-between">
+            <div class="col-11 col-md-5 text-center">
+                <h2 class="m-5">Pour qui ?</h2>
+                <div class="row mt-5">
+                    <div class="col-6 text-center my-5">
+                        <img src="./img/pour-qui-pack-enfant.png" class="col-10 col-md-6" alt="">
+                        <p>Enfant</p>
+                    </div>
+                    <div class="col-6 text-center my-5">
+                        <img src="./img/pour-qui-pack-ado.png" class="col-10 col-md-6" alt="">
+                        <p>Adolescent</p>
+                    </div>
+                    <div class="col-6 text-center my-5">
+                        <img src="./img/pour-qui-pack-maman.png" class="col-10 col-md-6" alt="">
+                        <p>Future maman</p>
+                    </div>
+                    <div class="col-6 text-center my-5">
+                        <img src="./img/pour-qui-pack-adulte.png" class="col-10 col-md-6" alt="">
+                        <p>Adulte</p>
+                    </div>
+                    <div class="col-12 text-center my-5">
+                        <img src="./img/pour-qui-pack-senior.png" class="col-5 col-md-3" alt="">
+                        <p>Sénior</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-11 col-md-6">
-                <h2>Services</h2>
-                <div class="col-12">
-                    <img src="" class="" alt="">
-                    <h3><a href="">Hypnose</a></h3>                    
-                </div>
-                <div class="col-12">
-                    <img src="" class="" alt="">
-                    <h3><a href=""></a>PNL - DNR</h3>
-                </div>
-                <div class="col-12">
-                    <img src="" class="" alt="">
-                    <h3><a href=""></a>Sophrologie</h3>
-                </div>
-                <div class="col-12">
-                    <img src="" class="" alt="">
-                    <h3><a href=""></a>EFT Clinique</h3>
+            <div class="col-11 col-md-5 text-center">
+                <h2 class="m-5">Services</h2>
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-12 text-center d-flex mt-5 align-items-center">
+                        <img src="./img/pour-qui-pack-arbre.png" class="col-6 col-md-3 me-4" alt="">
+                        <h3><a href="">Hypnose</a></h3>                    
+                    </div>
+                    <div class="col-12 text-center d-flex justify-content-end margin-right-services align-items-center">
+                        <h3><a href=""></a>PNL - DNR</h3>
+                        <img src="./img/pour-qui-pack-oeil.png" class="col-6 col-md-3 ms-4" alt="">
+                    </div>
+                    <div class="col-12 text-center d-flex align-items-center ">
+                        <img src="./img/pour-qui-pack-sophro.png" class="col-6 col-md-3 me-4" alt="">
+                        <h3><a href=""></a>Sophrologie</h3>
+                    </div>
+                    <div class="col-12 text-center d-flex align-items-center justify-content-end margin-right-services">
+                        <h3><a href=""></a>EFT Clinique</h3>
+                        <img src="./img/pour-qui-pack-eft.png" class="col-6 col-md-3 ms-4" alt="">
+                    </div>
                 </div>
             </div>
         </section>
