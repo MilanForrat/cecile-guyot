@@ -41,23 +41,26 @@ header{
     margin-top: -320px;
     text-align: justify;
     text-justify: inter-word;
-    text-shadow: 2px 4px 3px #020202;
-    color: #EAE4F3;
+    /* text-shadow: 2px 4px 3px #020202; */
+    color: black;
 }
 #main-description-content{
     margin-top: 250px;
 }
 #main-description-content .row{
-    background: rgb(145,127,185);
-    background: radial-gradient(circle, rgba(145, 127, 185, 0.39) 1%, #00000050 20%);
+    /* background: rgb(145,127,185);
+    background: radial-gradient(circle, rgba(145, 127, 185, 0.39) 1%, #00000050 20%); */
+    background-color:#eae4f3c0;;
     padding: 45px 15px;
     border-radius: 35px;
     /* box-shadow: 0px 5px 5px 1px black; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 /* ----------------------------------MAIN ACCROCHE----------------- */
 #main-accroche{
     text-align: center;
     background-image: url(./img/leaf-bg-purple-10.png);
+    background-size: cover;
     color: #EAE4F3;
     height: 350px;
     margin-top: -50px;
@@ -69,6 +72,7 @@ header{
     margin-top: -50px;
     /* background-color: #917FB9; */
     background-image: url(./img/herbs-bg-purple-20.png);
+    background-size: contain;
     padding: 100px 0;
 }
 .margin-right-services{
@@ -80,6 +84,7 @@ header{
     padding: 150px 0;
     margin-top: -100px;
     background-image: url(./img/leaf-bg-purple-10.png);
+    background-size: cover;
 }
 #main-ateliers p{
     text-align: justify;
@@ -94,6 +99,7 @@ header{
     margin-top: -100px;
     background-color: #917FB9;
     background-image: url(./img/herbs-bg-purple-20.png);
+    background-size: contain;
 }
 .icon-cabinet{
     width: 30px;
@@ -119,6 +125,7 @@ header{
     padding: 150px 0;
     margin-top: -100px;
     background-image: url(./img/leaf-bg-purple-10.png);
+    background-size: cover;
 }
 .carousel-elements-children{
     flex: 1 0 40%;
@@ -152,10 +159,11 @@ footer{
     padding: 120px 0 40px 0;
     margin-top: -100px;
     background-image: url(./img/herbs-bg-purple-20.png);
+    background-size: contain;
 }
 /* ------------------------------ SCROLLBAR AVIS ----------- */
 ::-webkit-scrollbar-track {
-    background-color: #8a8a8a;
+    background-color: #ffffff3d;
     border-radius: 5px;
 }
 
@@ -166,7 +174,7 @@ footer{
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #3d4852;
+    background-color: #38383870;
     border-radius: 30px;
 }
 /* ------------------------------------------- ANIMATIONS ----------- */
