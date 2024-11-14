@@ -11,7 +11,7 @@
     <script src="./app.js" type="text/javascript"></script>
 </head>
 <body>
-    <header class="row">
+    <header id="accueil" class="row">
         <img id="logo" class="col-8 col-md-4 col-xl-3" src="./img/logo-MD.png" alt="logo de l'entreprise Cécile Guyot">
         <nav class="navbar navbar-expand-lg col-6 col-md-7">
             <div class="container-fluid">
@@ -67,9 +67,9 @@
         <!-- ----------------------DESCRIPTION---------------------- -->
         <section id="main-description" class="d-flex align-items-center justify-content-center">
             <div id="main-description-content" class="col-11 col-xl-7">
-                <div  class="row align-items-center justify-content-center">
+                <div class="row align-items-center justify-content-center">
                     <div class="col-11 col-md-6 order-2 order-md-1">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nam doloremque voluptas tenetur obcaecati at exercitationem aut quo rem corporis, iste sint corrupti sit magnam minus. Possimus dignissimos laborum nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laborum inventore duimus. Praesentium, iure laboriosam fugit perferendis esse impedit veniam officiis aliquam, rem ipsum fugiat vitae aliquid ex maxime laudantium! Eius consequatur ratione earum odio molestiae laudantium inventore sapiente facere sequi eos at, dolores fuga voluptates fugiat maxime tenetur quibusdam.</p>
+                        <p>Parfois, un nouveau départ se fait en semant les graines d'un changement intérieur. Chacun des outils utilisés vous plonge dans un état naturel de relaxation, où l'esprit s'ouvre à de nouvelles perspectives. Ils permettent d'accéder aux ressources enfouies de l'inconscient pour dépasser les limites et libérer des potentiels insoupçonnés.</p>
                     </div>
                     <img src="./img/profil.png" class="col-12 col-md-4 offset-md-1 order-1 order-md-2" alt="">
                 </div>
@@ -80,7 +80,7 @@
         </section>
         <!-- ----------------------SERVICES---------------------- -->
         <section id="main-services" class="row">
-            <div class="col-12 col-md-5 text-center order-2 order-md-1">
+            <div id="pour-qui" class="col-12 col-md-5 text-center order-2 order-md-1">
                 <h2 class="m-5">Pour qui ?</h2>
                 <div class="row mt-5">
                     <div class="col-6 text-center my-5">
@@ -108,34 +108,35 @@
             <div class="col-12 col-md-5 text-center order-1 order-md-2">
                 <h2 class="m-5">Mes pratiques</h2>
                 <div class="row mt-5 justify-content-center">
-                    <div class="col-12 text-center d-flex mt-5 align-items-center margin-top-services">
+                    <div class="col-12 mb-5 text-center d-flex mt-5 align-items-center margin-top-services">
                         <img src="./img/pour-qui-pack-arbre.png" class="col-6 col-md-3 me-4" alt="">
                         <div class="d-flex flex-column">
                             <h3><a href="">Hypnose</a></h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, omnis.</p>           
                         </div>                    
                     </div>
-                    <div class="col-12 text-center d-flex justify-content-end margin-right-services margin-top-services align-items-center">
+                    <div class="col-12 mb-5 text-center d-flex justify-content-end margin-right-services margin-top-services align-items-center">
                         <div class="d-flex flex-column">
                             <h3><a href=""></a>PNL - DNR</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, omnis.</p>
                         </div>
                         <img src="./img/pour-qui-pack-oeil.png" class="col-6 col-md-3 ms-4" alt="">
                     </div>
-                    <div class="col-12 text-center d-flex align-items-center margin-top-services">
+                    <div class="col-12 mb-5 text-center d-flex align-items-center margin-top-services">
                         <img src="./img/pour-qui-pack-sophro.png" class="col-6 col-md-3 me-4" alt="">
                         <div class="d-flex flex-column">
                             <h3><a href=""></a>Sophrologie</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, omnis.</p>
                         </div>             
                     </div>
-                    <div class="col-12 text-center d-flex align-items-center justify-content-end margin-right-services margin-top-services">
+                    <div class="col-12 mb-5 text-center d-flex align-items-center justify-content-end margin-right-services margin-top-services">
                         <div class="d-flex flex-column">
                             <h3><a href=""></a>EFT Clinique</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, omnis.</p>
                         </div>
                         <img src="./img/pour-qui-pack-eft.png" class="col-6 col-md-3 ms-4" alt="">
                     </div>
+                    <a id="link-mutuelles" target="_blank" href="https://www.resalib.fr/remboursement/mutuelle/specialite/60-hypnotherapeute">Quelles mutuelles remboursent les consultations en Hypnothérapie ?</a>
                 </div>
             </div>
         </section>
@@ -154,6 +155,13 @@
                     <img src="./img/Ateliers-sophro-shadow.png" class="col-12 col-md-8 col-xl-6" alt="">
                     <div class="col-10 col-md-6 d-flex justify-content-center align-items-center flex-column">
                         <h3 class="mb-3">Ateliers Auto Hypnose</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis tempore adipisci cupiditate quos at suscipit dignissimos repudiandae! Non, illum deserunt. Aperiam odit at a illum autem harum, dicta eligendi hic optio porro enim labore dolore?</p>
+                    </div>
+                </div>
+                <div class="row col-12 col-xl-6 main-ateliers-row">
+                    <img src="./img/Ateliers-en-entreprise.png" class="col-12 col-md-8 col-xl-6" alt="">
+                    <div class="col-10 col-md-6 d-flex justify-content-center align-items-center flex-column">
+                        <h3 class="mb-3">Ateliers en Entreprise</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis tempore adipisci cupiditate quos at suscipit dignissimos repudiandae! Non, illum deserunt. Aperiam odit at a illum autem harum, dicta eligendi hic optio porro enim labore dolore?</p>
                     </div>
                 </div>
@@ -197,7 +205,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.709711612626!2d5.168713076629368!3d45.99702499772988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b51a52b79fb4b%3A0xa40ee9b216421f40!2sCecile%20Guyot%20-%20Hypnose%20et%20Sophrologie%20-%20EFT%20-%20PNL%20-%20DNR!5e0!3m2!1sfr!2sfr!4v1730783850377!5m2!1sfr!2sfr" class="col-12 col-md-10 col-xl-8" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <a data-bs-toggle="offcanvas" href="#offcanvas-parking" role="button" aria-controls="offcanvas-parking">Trouver une place de parking</a>
             </div>
-            <div id="main-cabinet-photos" class="row justify-content-around my-5">
+            <div id="main-cabinet-photos" class="row justify-content-around mt-5">
                 <img src="./img/photo-cabinet-2-carre-shadow.png" class="col-12 col-md-3 border-radius-50" alt="">
                 <img src="./img/photo-vitrinie-chalamont-diamant-shadow.png" class="col-12 col-md-3" alt="">
                 <img src="./img/photo-cabinet-4-carre-shadow.png" class="col-12 col-md-3 border-radius-50" alt="">
@@ -445,7 +453,7 @@
                         <br><br>
                         Forme juridique : Entrepreneur individuel
                         <br><br>
-                        Conformément aux articles L.616–1 et R. 616–1 du code de la consommation, un dispositif de médiation de la consommation a été mis en place. L'entité de médiation retenue est : CMPM–Médiation de la Consommation. En cas de litige, vous pouvez déposer votre réclamation sur son site : http ://cnpm–médiation–consommation.eu ou par voie postale en écrivant à CNPM–médiation–consommation–27, avenue de la libération–42400 SAINT-CHAMOND.
+                        Conformément aux articles L.616–1 et R. 616–1 du code de la consommation, un dispositif de médiation de la consommation a été mis en place. L'entité de médiation retenue est : CMPM–Médiation de la Consommation. En cas de litige, vous pouvez déposer votre réclamation par voie postale en écrivant à CNPM–médiation–consommation–27, avenue de la libération–42400 SAINT-CHAMOND.
                         <br><br>
                         Certification professionnelle de Sophrologue (code NSF 330p) de niveau 5, enregistrée au Répertoire National de la Certification Professionnelle sous le numéro 34546 suite à la décision de France compétences du 30 mars 2020
                         <br><br>
@@ -483,14 +491,21 @@
     <!-- -------------------------- OFFCANVAS ------------------- -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-parking" aria-labelledby="offcanvas-parkingLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvas-parkingLabel">Offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvas-parkingLabel">Parkings autour du cabinet</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <div>
                 <!-- image parking -->
-                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                <!-- Mini description des parkings proches -->
+                 <img src="./img/image-parking.png" class="col-12 col-md-11" alt="">
+                <p>Chalamont offre une multitude de place de parking.<br>
+
+                    <ul>
+                        <li>Vous pouvez vous garer sur la place du marché, à proximité immédiate du cabinet.</li>
+                        <li>Un autre parking beaucoup plus grand est situé au niveau de l'école de musique.</li>
+                        <li>Enfin, l'école primaire du village propose aussi quelques places mais attention au marché qui a lieu tous les vendredi après-midi.</li>
+                    </ul>
+                </p>
             </div>
         </div>
     </div>
@@ -514,5 +529,6 @@
             <a href="#">Cookies</a>
         </div>
     </footer>
+    <a id="back-to-top-btn" href="#accueil"><img src="./img/arrow-top.png" alt=""></a>
 </body>
 </html>

@@ -1,5 +1,6 @@
 body{
     background-color: #EAE4F3;
+    scroll-behavior: smooth;
 }
 .row{
     margin: 0;
@@ -30,6 +31,9 @@ header{
     padding-left: 45px;
 }
 .navbar{
+    /* position: fixed;
+    z-index: 999999;
+    left: 50%; */
 
 }
 #reseaux-sociaux{
@@ -91,6 +95,9 @@ header{
 .margin-right-services{
     padding-right: 50px;
 }
+#link-mutuelles{
+    margin-bottom: 80px;
+}
 /* ----------------------------MAIN ATELIERS-------------------------- */
 #main-ateliers{
     clip-path: polygon(0 0, 100% 50px, 100% calc(100% - 50px), 0 100%);
@@ -105,6 +112,9 @@ header{
 .main-ateliers-row{
     justify-content: center;
     margin-top: 50px;
+}
+.main-ateliers-row h3{
+    margin: 20px 0 10px 0;
 }
 /* ------------------------MAIN CABINET---------------- */
 #main-cabinet{
@@ -131,6 +141,10 @@ header{
     min-height:450px;
     margin: 3rem 0;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* --------------- OFFCANVAS PARKING CABINET --------- */
+.offcanvas{
+    --bs-offcanvas-width:auto;
 }
 /* ------------------------------------AVIS------------------- */
 #main-avis{
@@ -173,6 +187,16 @@ footer{
     margin-top: -100px;
     background-image: url(./img/herbs-bg-purple-20.png);
     background-size: contain;
+}
+/* ---------------- MODAL MENTIONS LEGALES ---------- */
+.modal-dialog{
+    max-width: 60%;
+}
+/* ----------- BACK TO TOP --------- */
+#back-to-top-btn{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
 }
 /* ------------------------------ SCROLLBAR AVIS ----------- */
 ::-webkit-scrollbar-track {
@@ -253,6 +277,12 @@ footer{
     }
     .margin-top-services{
         margin: 35px 0;
+    }
+    #link-mutuelles{
+        margin: 50px 0;
+    }
+    #pour-qui{
+        margin-bottom: 40px;
     }
     .main-cabinet-infos-li{
         margin-left: 0;
