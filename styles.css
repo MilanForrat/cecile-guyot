@@ -96,7 +96,13 @@ header{
     padding-right: 50px;
 }
 #link-mutuelles{
-    margin-bottom: 80px;
+    margin: 80px 0;
+}
+#main-services ul{
+    list-style-type: circle;
+}
+#main-services-deroulement, #main-services-benefices{
+    text-align: justify;
 }
 /* ----------------------------MAIN ATELIERS-------------------------- */
 #main-ateliers{
@@ -280,6 +286,12 @@ footer{
     }
     #link-mutuelles{
         margin: 50px 0;
+    }
+    #main-services-photo-benefices{
+        display: none;
+    }
+    #main-services-photo-deroulement{
+        margin-bottom: 35px;
     }
     #pour-qui{
         margin-bottom: 40px;
