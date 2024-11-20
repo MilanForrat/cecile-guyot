@@ -27,12 +27,6 @@ header{
     position: relative;
     background-size:cover;
 }
-.header-liens-sociaux{
-    transition: 300ms ease-in-out;
-}
-.header-liens-sociaux:hover{
-    transform: scale(1.1);
-}
 #logo{
     padding-top: 60px;
 }
@@ -40,8 +34,12 @@ header{
 .navbar{
     text-align: center;
     padding: 20px 0;
-    background-color: #8C79B6;
+    background-color: rgba(140, 121, 182, 0.968);
     box-shadow: rgb(38, 57, 77) 0px 8px 30px 0px;
+}
+.navbar-toggler{
+    background-color: #fff;
+    box-shadow: rgb(38, 57, 77) 1px 1px 10px 0px;
 }
 .nav-item{
     padding-right: 20px;
@@ -58,6 +56,34 @@ header{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: #19181a;
     text-shadow: 1px 1px 3px #e0e0e0;
+}
+#navbar-rdv{
+    background-color: #f1f0f0;
+    /* text-shadow: 1px 1px 1px #00000048; */
+    margin-top: 2px;
+    transition: 0.6s ease-in-out;
+    color: #6442ac;
+    font-size: 15px;
+}
+.badge{
+    padding: 15px;
+    margin-right: 8px;
+    box-shadow: rgb(38, 57, 77) 1px 1px 10px 0px;
+}
+.navbar-rdv-mobile{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 70px 15px 70px;
+}
+#navbar-rdv .nav-link{
+    transition: 0.6s ease-in-out;
+}
+#navbar-rdv:hover{
+    background-color: #a29fa7;
+    transform: scale(1.02);
+}
+#navbar-rdv .nav-link:hover{
+    color: #6442ac;
 }
 /* -------------- MAIN ----------- */
 /* ---------------------------MAIN DESCRIPTION--------------------- */
@@ -202,6 +228,17 @@ footer{
     background-image: url(./img/herbs-bg-purple-20.png);
     background-size: contain;
 }
+#footer-icons{
+    
+}
+.footer-liens-sociaux{
+    transition: 300ms ease-in-out;
+    width: 50px;
+    margin-right: 10px;
+}
+.footer-liens-sociaux:hover{
+    transform: scale(1.1);
+}
 /* ---------------- MODAL MENTIONS LEGALES ---------- */
 .modal-dialog{
     max-width: 60%;
@@ -219,14 +256,12 @@ footer{
 }
 
 ::-webkit-scrollbar {
-    /* border-radius: 30px; */
     height: 15px;
     background-color: #f5f5f500;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #38383870;
-    /* border-radius: 30px; */
 }
 /* ------------------------------------------- ANIMATIONS ----------- */
 .two-lines{
@@ -269,18 +304,10 @@ footer{
     transition-delay: 0s;
 }
 /* -----------------------------MEDIA QUERIES--------------------- */
-@media only screen and (max-width: 792px){
-    #main-description{
-        height: 1200px;
-    }
-    #main-description-content .row{
-        padding: 15px;
-    }
-    #main-description-content img{
-        margin: 20px 5px;
-    }
-    #header-logo-sociaux{
+@media only screen and (max-width: 992px){
+    #header-logo{
         justify-content: center;
+        margin-top: 70px;
     }
     #logo{
         margin: 25px 0;
@@ -290,6 +317,19 @@ footer{
     }
     .nav-item{
         margin-bottom: 30px;
+    }
+    #footer-icons{
+        margin-top: 20px;
+    }
+    /* ------- MAIN ----- */
+    #main-description{
+        height: 1200px;
+    }
+    #main-description-content .row{
+        padding: 15px;
+    }
+    #main-description-content img{
+        margin: 20px 5px;
     }
     #main-accroche{
         height: 350px;
@@ -333,6 +373,7 @@ footer{
     .carousel-elements-children{
         flex: 1 0 75%;
     }
+    /* --------- FOOTER --------- */
     footer{
         flex-direction: column;
         padding: 100px 0;

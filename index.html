@@ -12,14 +12,14 @@
 <body>
     <header id="accueil">
         <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid">
+                <button id="btn-navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav d-flex justify-content-center w-100">
                         <li class="nav-item">
-                            <a class="nav-link active two-lines" aria-current="page" href="#">Accueil</a>
+                            <a class="nav-link two-lines"  href="#">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link two-lines" href="#">A propos</a>
@@ -56,16 +56,11 @@
                         </li>
                     </ul>
                 </div>
+                <a id="navbar-rdv" class="nav-link badge rounded-pill" target="_blank" href="https://www.resalib.fr/praticien/62346-cecile-guyot-hypnotherapeute-chalamont">Prendre RDV</a>
             </div>
         </nav>
-        <div id="header-logo-sociaux" class="d-flex">
-            <img id="logo" class="col-10 col-md-4 col-xl-3" src="./img/logo-MD.png" alt="logo de l'entreprise Cécile Guyot">
-        </div>
-        <div class="col-12 col-xl-6 d-flex justify-content-around">
-            <a id="icon-insta" href="https://www.instagram.com/cecile_hypnose/?hl=fr" target="_blank"><img class="header-liens-sociaux" src="./img/icon-insta.png" alt="icon illustrant le réseau social : Instagram"></a>
-            <a id="icon-facebook" href="https://www.facebook.com/cecilesohypno" target="_blank"><img class="header-liens-sociaux" src="./img/icon-facebook.png" alt="icon illustrant le réseau social : Facebook"></a>
-            <a id="icon-linkedIn" href="https://www.linkedin.com/in/c%C3%A9cile-guyot-2b1a8b10a/" target="_blank"><img class="header-liens-sociaux" src="./img/icon-linkedIn.png" alt="icon illustrant le réseau social : linkedIn"></a>
-            <a id="icon-youtube" href="https://www.youtube.com/channel/UClkNmjklD2vERj0KJ8SQxeg?app=desktop&feature=applinks" target="_blank"><img class="header-liens-sociaux" src="./img/icon-youtubev2.png" alt="icon illustrant le réseau social : Youtube"></a>
+        <div id="header-logo" class="d-flex">
+            <img id="logo" class="col-10 col-md-6 col-lg-4 col-xl-3" src="./img/logo-MD.png" alt="logo de l'entreprise Cécile Guyot">
         </div>
     </header>
     <main>
@@ -76,7 +71,7 @@
                     <div class="col-11 col-md-6 order-2 order-md-1">
                         <p>Parfois, un nouveau départ se fait en semant les graines d'un changement intérieur. Chacun des outils utilisés vous plonge dans un état naturel de relaxation, où l'esprit s'ouvre à de nouvelles perspectives. Ils permettent d'accéder aux ressources enfouies de l'inconscient pour dépasser les limites et libérer des potentiels insoupçonnés.</p>
                     </div>
-                    <img src="./img/profil.png" class="col-12 col-md-4 offset-md-1 order-1 order-md-2" alt="">
+                    <img src="./img/profil.png" class="col-12 col-sm-8 col-md-4 offset-md-1 order-1 order-md-2" alt="">
                 </div>
             </div>
         </section>
@@ -559,23 +554,32 @@
         </div>
     </div>
     <!-- ----------------------FOOTER---------------------- -->
-    <footer class="d-flex justify-content-center align-items-center">
-        <!-- back to top -->
-        <img id="footer-logo" class="col-11 col-md-2 ms-5" src="./img/logo-MD.png" alt="">
-        <div id="footer-infos-contact" class="col-11 col-md-4 d-flex align-items-center justify-content-center">
-            <p class="pt-5">
+    <footer class="row justify-content-center align-items-center">
+        <img id="footer-logo" class="col-11 col-sm-8 col-md-4 col-xl-3 ms-5" src="./img/logo-MD.png" alt="">
+        <div id="footer-icons" class="d-flex justify-content-around col-12 col-md-4 mt-5">
+            <a id="icon-insta" href="https://www.instagram.com/cecile_hypnose/?hl=fr" target="_blank"><img class="footer-liens-sociaux" src="./img/icon-insta-light.png" alt="icon illustrant le réseau social : Instagram"></a>
+            <a id="icon-facebook" href="https://www.facebook.com/cecilesohypno" target="_blank"><img class="footer-liens-sociaux" src="./img/icon-facebook-light.png" alt="icon illustrant le réseau social : Facebook"></a>
+            <a id="icon-linkedIn" href="https://www.linkedin.com/in/c%C3%A9cile-guyot-2b1a8b10a/" target="_blank"><img class="footer-liens-sociaux" src="./img/icon-linkedIn-light.png" alt="icon illustrant le réseau social : linkedIn"></a>
+            <a id="icon-youtube" href="https://www.youtube.com/channel/UClkNmjklD2vERj0KJ8SQxeg?app=desktop&feature=applinks" target="_blank"><img class="footer-liens-sociaux" src="./img/icon-youtube-light.png" alt="icon illustrant le réseau social : Youtube"></a>
+        </div>
+        <div id="footer-mentions-legales-cookies" class="col-11 col-md-4 d-flex mt-5 flex-column justify-content-center align-items-center">
+            <button type="button" class="btn btn-purple-dark" data-bs-toggle="modal" data-bs-target="#mentions-legales-modal">
+                Mentions Légales</button>
+            <a class="mt-5" href="#">Cookies</a>
+        </div>
+        <div id="footer-infos-contact" class="col-11 mt-5 d-flex align-items-center justify-content-around">
+            <p>
                 Cécile Guyot<br>
-                Hypnothérapeute<br><br>
+                Hypnothérapeute
+            </p>
+            <p>
                 74 place du marché,<br>
-                01320 CHALAMONT<br><br>
+                01320 CHALAMONT
+            </p>
+            <p>  
                 SIRET : 89351173300030<br>
                 Entreprise créée le 01/02/2021
             </p>
-        </div>
-        <div id="footer-mentions-legales-cookies" class="col-11 col-md-4 d-flex flex-column justify-content-center align-items-center">
-            <button type="button" class="btn btn-purple-dark" data-bs-toggle="modal" data-bs-target="#mentions-legales-modal">
-                Mentions Légales</button>
-            <a href="#">Cookies</a>
         </div>
     </footer>
     <a id="back-to-top-btn" href="#accueil"><img src="./img/arrow-top.png" alt=""></a>
