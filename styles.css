@@ -27,27 +27,37 @@ header{
     position: relative;
     background-size:cover;
 }
-#logo{
-    padding-left: 45px;
-}
-.navbar{
-    /* position: fixed;
-    z-index: 999999;
-    left: 50%; */
-
-}
-#reseaux-sociaux{
-
-}
 .header-liens-sociaux{
     transition: 300ms ease-in-out;
 }
 .header-liens-sociaux:hover{
     transform: scale(1.1);
 }
+#logo{
+    padding-top: 60px;
+}
 /* NAVBAR */
+.navbar{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #8C79B6;
+    box-shadow: rgb(38, 57, 77) 0px 8px 30px 0px;
+}
+.nav-item{
+    padding-right: 20px;
+}
 .nav-item a{
-    color: #26214d;
+    color: #ece5f3;
+    text-shadow: 1px 1px 3px #000000;
+    transition: 0.6s;
+}
+.nav-item a:hover{
+    color: #151416;
+    text-shadow: 1px 1px 3px #e0e0e0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #19181a;
+    text-shadow: 1px 1px 3px #e0e0e0;
 }
 /* -------------- MAIN ----------- */
 /* ---------------------------MAIN DESCRIPTION--------------------- */
@@ -55,10 +65,8 @@ header{
     background-image: url(./img/bg-section-1.jpg);
     background-size: cover;
     height: 1000px;
-    margin-top: -320px;
+    margin-top: -380px;
     text-align: justify;
-    text-justify: inter-word;
-    /* text-shadow: 2px 4px 3px #020202; */
     color: black;
 }
 #main-description-content{
@@ -211,14 +219,14 @@ footer{
 }
 
 ::-webkit-scrollbar {
-    border-radius: 30px;
+    /* border-radius: 30px; */
     height: 15px;
     background-color: #f5f5f500;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #38383870;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 /* ------------------------------------------- ANIMATIONS ----------- */
 .two-lines{
@@ -263,7 +271,6 @@ footer{
 /* -----------------------------MEDIA QUERIES--------------------- */
 @media only screen and (max-width: 792px){
     #main-description{
-        margin-top: -200px;
         height: 1200px;
     }
     #main-description-content .row{
@@ -271,6 +278,18 @@ footer{
     }
     #main-description-content img{
         margin: 20px 5px;
+    }
+    #header-logo-sociaux{
+        justify-content: center;
+    }
+    #logo{
+        margin: 25px 0;
+    }
+    .navbar{
+        left: 0;
+    }
+    .nav-item{
+        margin-bottom: 30px;
     }
     #main-accroche{
         height: 350px;
@@ -318,4 +337,6 @@ footer{
         flex-direction: column;
         padding: 100px 0;
     }
+    /* ----------- ANIMATIONS --------- */
+    
 }
