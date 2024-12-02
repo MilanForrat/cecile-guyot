@@ -3,7 +3,6 @@
     src: url(./fonts/Document\ fonts/ChampagneLimousinesBold.ttf);
   }
 body{
-    background-color: #EAE4F3;
     scroll-behavior: smooth;
     line-height: 1.8;
     font-family: ChampagneLimousinesBold;
@@ -302,9 +301,39 @@ footer{
 #back-to-top-btn{
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    left: 0px;
+}
+/* ************** MODAL ACCOMPAGNEMENT ********** */
+#modal-accompagnements .modal-body{
+    background-color: #302c2ca8;
+}
+#modal-accompagnements .navbar{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(140, 121, 182, 0.911);
+}
+#modal-accompagnements ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#modal-accompagnements .collapse{
+    width: 100%;
+}
+#modal-accompagnements #btn-close-accompagnements-ul{
+   margin-top: 12px;
+}
+#modal-accompagnements #btn-close-accompagnements-title{
+    display: none;
 }
 /* ------------------------------------------- ANIMATIONS ----------- */
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 98px 0 50px 0;
+}
+hr#Hypnose{
+    margin-top: 0;
+}
 .two-lines{
     text-decoration: none;
     position: relative;
@@ -409,7 +438,7 @@ footer{
     }
     /* ------- MAIN ----- */
     #main-description{
-        height: 1200px;
+        height: 1500px;
     }
     #main-description-content .row{
         padding: 15px;
@@ -470,6 +499,16 @@ footer{
         margin: 35px 0;
         text-align: center;
         flex-direction: column;
+    }
+    /* ********** MODAL ACCOMPAGNEMTS ******* */
+    #modal-accompagnements .navbar{
+        padding: 5px;
+    }
+    #modal-accompagnements #btn-close-accompagnements-ul{
+        display: none;
+    }
+    #modal-accompagnements #btn-close-accompagnements-title{
+        display: block;
     }
     /* ----------- ANIMATIONS --------- */
     
