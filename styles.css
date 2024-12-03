@@ -1,12 +1,19 @@
 @font-face {
     font-family: ChampagneLimousinesBold;
-    src: url(./fonts/Document\ fonts/ChampagneLimousinesBold.ttf);
+    src: url('./fonts/Document\ fonts/ChampagneLimousinesBold.ttf');
   }
+  @font-face {
+    font-family: EagleLake-Regular;
+    src: url('./fonts/Document\ fonts/EagleLake-Regular.ttf');
+}
 body{
     scroll-behavior: smooth;
     line-height: 1.8;
     font-family: ChampagneLimousinesBold;
     font-size: larger;
+}
+h1,h2,h3,h4,h5{
+    font-family: EagleLake-Regular;
 }
 .row{
     margin: 0;
@@ -39,13 +46,19 @@ header{
 /* ---------- LINKS --------- */
 .light-link{
     color: #222;
+    text-decoration:underline;
     text-decoration-color: #917FB9;
     padding-bottom: 5px;
+    border: none;
+    background-color: #ffffff00;
 }
 .dark-link{
-    color: #222;
+    color:#dcd6e6;
     text-decoration-color: #ece5f3;
     padding-bottom: 5px;
+    border: none;
+    text-decoration:underline;
+    background-color: #ffffff00;
 }
 /* NAVBAR */
 .navbar{
@@ -134,7 +147,7 @@ header{
 /* ---------- MODAL A PROPOS ---------- */
 .modal-content{
     background-color: rgba(140, 121, 182, 0.928);
-    color:#EAE4F3;
+    color:#dcd6e6;
 }
 .modal-body{
     min-width: 50vw;
@@ -161,7 +174,7 @@ header{
     text-align: center;
     background-image: url(./img/leaf-bg-purple-10.png);
     background-size: cover;
-    color: #EAE4F3;
+    color:#dcd6e6;
     height: 350px;
     margin-top: -50px;
     clip-path: polygon(0 0, 100% 50px, 100% calc(100% - 50px), 0 100%);
@@ -187,6 +200,11 @@ header{
 #main-services-deroulement, #main-services-benefices{
     text-align: justify;
 }
+#offcanvas-tarifs-ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
 /* ----------------------------MAIN ATELIERS-------------------------- */
 #main-ateliers{
     clip-path: polygon(0 0, 100% 50px, 100% calc(100% - 50px), 0 100%);
@@ -194,7 +212,7 @@ header{
     margin-top: -100px;
     background-image: url(./img/leaf-bg-purple-10.png);
     background-size: cover;
-    color: #EAE4F3;
+    color:#dcd6e6;
 }
 #main-ateliers p{
     text-align: justify;
@@ -245,7 +263,7 @@ header{
     margin-top: -100px;
     background-image: url(./img/leaf-bg-purple-10.png);
     background-size: cover;
-    color: #EAE4F3
+    color:#dcd6e6;
 }
 .carousel-elements-children{
     flex: 1 0 40%;
@@ -306,6 +324,7 @@ footer{
 /* ************** MODAL ACCOMPAGNEMENT ********** */
 #modal-accompagnements .modal-body{
     background-color: #302c2ca8;
+    text-align: justify;
 }
 #modal-accompagnements .navbar{
     padding: 5px;
@@ -471,6 +490,12 @@ hr#Hypnose{
     }
     #main-services-photo-deroulement{
         margin-bottom: 35px;
+    }
+    #offcanvas-tarifs-ul{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 0;
     }
     #pour-qui{
         margin-bottom: 40px;
