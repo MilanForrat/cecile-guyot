@@ -36,6 +36,15 @@ h1,h2,h3,h4,h5{
     background-color: #EAE4F3;
     text-shadow: 1px 1px 3px #b1b1b1;
 }
+.btn-light-perso{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #eae4f3da;
+    transition: background-color 0.5s ease-in-out;
+}
+.btn-light-perso:hover{
+    background-color: rgb(132, 114, 136);
+}
 header{
     background-image: url(./img/header-bg-transparent-high-v2.png);
     position: relative;
@@ -322,7 +331,7 @@ footer{
     bottom: 20px;
     left: 0px;
 }
-/* ************** MODAL ACCOMPAGNEMENT ********** */
+/* ************** MODAL SERVICES/ACCOMPAGNEMENTS ********** */
 #modal-accompagnements .modal-body{
     background-color: #302c2ca8;
     text-align: justify;
@@ -346,10 +355,34 @@ footer{
 #modal-accompagnements #btn-close-accompagnements-title{
     display: none;
 }
+/* --------------- MODAL ATELIERS ---------- */
+#modal-ateliers .modal-body{
+    background-color: #302c2ca8;
+    text-align: justify;
+}
+#modal-ateliers .navbar{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(140, 121, 182, 0.911);
+}
+#modal-ateliers ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#modal-ateliers .collapse{
+    width: 100%;
+}
+#modal-ateliers #btn-close-ateliers-ul{
+    margin-top: 12px;
+}
+ #modal-ateliers #btn-close-ateliers-title{
+     display: none;
+}
 /* ------------------------------------------- ANIMATIONS ----------- */
 hr.solid {
     border-top: 3px solid #bbb;
-    margin: 98px 0 50px 0;
+    /* margin: 20px 0 20px 0; */
 }
 hr#Hypnose{
     margin-top: 0;
@@ -534,6 +567,16 @@ hr#Hypnose{
         display: none;
     }
     #modal-accompagnements #btn-close-accompagnements-title{
+        display: block;
+    }
+    /* ********** MODAL ATELIERS ********** */
+    #modal-ateliers .navbar{
+        padding: 5px;
+    }
+    #modal-ateliers #btn-close-ateliers-ul{
+        display: none;
+    }
+    #modal-ateliers #btn-close-ateliers-title{
         display: block;
     }
     /* ----------- ANIMATIONS --------- */
