@@ -6180,7 +6180,7 @@ tarteaucitron.services.maps_noapi = {
                 width = tarteaucitron.getElemAttr(x, "width"),
                 height = tarteaucitron.getElemAttr(x, "height")
             var widgetURL = "https://www.google.com/maps/embed?pb=" + id;
-            return "<iframe width=\"" + width + "\" height=\"" + height + "\" src=\"" + widgetURL + "\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>";
+            return "<iframe width=\"" + width + "\" height=\"" + height + "\" src=\"" + widgetURL + "\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" title=\"GoogleMaps carte interactive de Chalamont\"></iframe>";
         });
     },
     "fallback": function () {

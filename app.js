@@ -28,6 +28,10 @@ function checkOnNavbarToggler(){
     rdv.classList.toggle('navbar-rdv-mobile');
     // console.log(element);
 }
+// var iframe=document.getElementsByTagName("iframe");
+// console.log(iframe[0].contentDocument.title);
+// iframe.contentDocument.title="GoogleMap carte interactive de Chalamont 01320";
+
 
 // var btnHypno = document.getElementById('btn-accompagnements-hypnose');
 // var btnPNL = document.getElementById('btn-accompagnements-PNL');
